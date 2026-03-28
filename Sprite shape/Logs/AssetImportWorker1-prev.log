@@ -1,0 +1,1065 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) Professional' Language: 'pt' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Fabricio" at "2026-03-27T22:44:14.3075801Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-03-27T22:44:14Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Fabricio/My project (2)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61525
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Fabricio/My project (2)
+C:/Users/Fabricio/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [7196]  Target information:
+
+Player connection [7196]  * "[IP] 10.1.179.64 [Port] 0 [Flags] 2 [Guid] 677043467 [EditorId] 677043467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I8CM8Q3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7196] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7196] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Fabricio/My project (2)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.15.9571
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001856 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              909fffeca48545b8935e596e10285c25
+  Correlation Id:          9e54d7cf675d7e476bdb4f1106ed8935
+  External correlation Id: 7910294102296510610
+  Machine Id:              U+j5O5u+KzUeFzLFcBmg6V1+7Cc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Fabricio" (connect: 0.00s, validation: 0.00s, handshake: 1.35s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Fabricio-notifications" at "2026-03-27T22:44:15.654981Z"
+[Licensing::Module] Licensing Background thread has ended after 1.35s
+- Loaded All Assemblies, in  0.508 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 1009ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (207ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (503ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674169435072-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.837 seconds
+Domain Reload Profiling: 1748ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (616ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (680ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6913 unused Assets / (5.4 MB). Loaded Objects now: 7731.
+Memory consumption went from 152.5 MB to 147.2 MB.
+Total: 12.331800 ms (FindLiveObjects: 1.214500 ms CreateObjectMapping: 0.660500 ms MarkObjects: 6.822400 ms  DeleteObjects: 3.633100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72399.885799 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '159ec56ff2981602e6821955bb114493') in 0.2172092 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '829224fe01af2396f014c16bafcb80d9') in 0.0510939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71e530067ebaea7b919ef4800b5ede6c') in 0.0170954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.267560 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be9fa4af883fb651cedf77e4fd4a03a') in 0.0159393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6903 unused Assets / (4.4 MB). Loaded Objects now: 7735.
+Memory consumption went from 151.3 MB to 146.8 MB.
+Total: 9.654600 ms (FindLiveObjects: 0.715300 ms CreateObjectMapping: 0.707100 ms MarkObjects: 6.263700 ms  DeleteObjects: 1.966600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.947889 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Castle Wall.asset
+  artifactKey: Guid(49058e371087b49b18fb1c4177f3b7bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Castle Wall.asset using Guid(49058e371087b49b18fb1c4177f3b7bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3b7dbc590e7abe16c237dc21baef3e1') in 0.0398006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Tree A.asset
+  artifactKey: Guid(8b26d0461d17044fbaf93e8736c54c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Tree A.asset using Guid(8b26d0461d17044fbaf93e8736c54c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f908b3b55521603d54eb6e0d0015cd95') in 0.0257124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Tree FIll C.png
+  artifactKey: Guid(5d7be72d5dc404d048456a48d2b1838e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Tree FIll C.png using Guid(5d7be72d5dc404d048456a48d2b1838e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ad286bd7f9965a4e24ecc5171ca2abd') in 0.0726393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rocks.png
+  artifactKey: Guid(d501f6d7fa84c4038b7449696f44ff38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rocks.png using Guid(d501f6d7fa84c4038b7449696f44ff38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbb94111a24a81e02226c318291b1047') in 0.0295047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top - With Flowers.png
+  artifactKey: Guid(715d5c70d2ef94e2b87c9ba60ec550b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top - With Flowers.png using Guid(715d5c70d2ef94e2b87c9ba60ec550b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf0212b7c9fd20f8a0801df7566108ac') in 0.0244715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Textures
+  artifactKey: Guid(50ccdb76056dc4d5aa4b4b11347f29d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Textures using Guid(50ccdb76056dc4d5aa4b4b11347f29d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3011d3773f8a32051a35a7d3454631f2') in 0.0220298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Outline.png
+  artifactKey: Guid(8a213466b4b3642faa34dd7853586d96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Outline.png using Guid(8a213466b4b3642faa34dd7853586d96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23287fbc0163a798f43912f0a53bfce2') in 0.0756977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Platform.asset
+  artifactKey: Guid(d5a6d064bf23c452287ef7371144927c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Platform.asset using Guid(d5a6d064bf23c452287ef7371144927c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff75e5a6812f00e82a83b2ebd199d97b') in 0.0292107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top.png
+  artifactKey: Guid(a4fef30bb3ca5463a9c33c123a81604a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top.png using Guid(a4fef30bb3ca5463a9c33c123a81604a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cb07976a225bde0e8c0cad5b64799b5') in 0.0292635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rock Fill.png
+  artifactKey: Guid(3bab026df42df40a5a6b43d96aac577a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rock Fill.png using Guid(3bab026df42df40a5a6b43d96aac577a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8af9719f1da15b8d7a077d42aab332b0') in 0.023901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6909 unused Assets / (4.2 MB). Loaded Objects now: 7742.
+Memory consumption went from 151.4 MB to 147.2 MB.
+Total: 10.382000 ms (FindLiveObjects: 0.936600 ms CreateObjectMapping: 0.529100 ms MarkObjects: 7.052000 ms  DeleteObjects: 1.862700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (734ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (3.9 MB). Loaded Objects now: 7746.
+Memory consumption went from 156.2 MB to 152.2 MB.
+Total: 8.290700 ms (FindLiveObjects: 0.685500 ms CreateObjectMapping: 0.731500 ms MarkObjects: 5.222900 ms  DeleteObjects: 1.649200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.774288 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Dark Grey Fill.png
+  artifactKey: Guid(9f145c794d2be4ed98c48eefdf471e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Dark Grey Fill.png using Guid(9f145c794d2be4ed98c48eefdf471e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22efbbdf2d95566b31f1495f60d9c72a') in 0.1282249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rocks.png
+  artifactKey: Guid(d501f6d7fa84c4038b7449696f44ff38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rocks.png using Guid(d501f6d7fa84c4038b7449696f44ff38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ccd17ccd7e864fdc55cd5b324ea8d1f') in 0.0470416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Tree FIll C.png
+  artifactKey: Guid(5d7be72d5dc404d048456a48d2b1838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Tree FIll C.png using Guid(5d7be72d5dc404d048456a48d2b1838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '593ada206bc36a0c2958536742ee2b80') in 0.043105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top.png
+  artifactKey: Guid(a4fef30bb3ca5463a9c33c123a81604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top.png using Guid(a4fef30bb3ca5463a9c33c123a81604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d9f1b0452b489d0a2fcc3eba164d67a') in 0.0310302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rock Fill.png
+  artifactKey: Guid(3bab026df42df40a5a6b43d96aac577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Rock Fill.png using Guid(3bab026df42df40a5a6b43d96aac577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e69b29562ca6d6cf5bd2c3226b3f0f0') in 0.0300758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top - With Small Rocks.png
+  artifactKey: Guid(edb6cf28f071342d7bbc2a3b3d8ab101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top - With Small Rocks.png using Guid(edb6cf28f071342d7bbc2a3b3d8ab101) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fbc543e36dd500a4ccd8b384e892dd7') in 0.0248526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top - With Flowers.png
+  artifactKey: Guid(715d5c70d2ef94e2b87c9ba60ec550b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Top - With Flowers.png using Guid(715d5c70d2ef94e2b87c9ba60ec550b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38048e9f8dc94a0cfe77bc6a90745e24') in 0.0211028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.711 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.703 seconds
+Domain Reload Profiling: 1415ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (4.4 MB). Loaded Objects now: 7761.
+Memory consumption went from 156.5 MB to 152.1 MB.
+Total: 10.229800 ms (FindLiveObjects: 0.841400 ms CreateObjectMapping: 0.603500 ms MarkObjects: 6.639900 ms  DeleteObjects: 2.143500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.848 seconds
+Domain Reload Profiling: 1601ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (197ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (848ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (689ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (4.2 MB). Loaded Objects now: 7764.
+Memory consumption went from 156.6 MB to 152.4 MB.
+Total: 9.141100 ms (FindLiveObjects: 0.562400 ms CreateObjectMapping: 0.530200 ms MarkObjects: 6.005000 ms  DeleteObjects: 2.041500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.304786 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/IceSprite.png
+  artifactKey: Guid(e74b518a65bc45f4cace9a2fef6af29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/IceSprite.png using Guid(e74b518a65bc45f4cace9a2fef6af29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb730f773e109305ebe655295ae6d22') in 0.1127305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/RoadSprite.png
+  artifactKey: Guid(c6dabd295b8ab514fa47b5d4e2b0266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/RoadSprite.png using Guid(c6dabd295b8ab514fa47b5d4e2b0266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d13e7dea4b12c18e3f160206aeee6fd') in 0.0231784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/TreeSprite.png
+  artifactKey: Guid(029f005d8b06f834fa06df50fc4e7dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/TreeSprite.png using Guid(029f005d8b06f834fa06df50fc4e7dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daff4ce33b7d4132bca883fea8c9da21') in 0.0300762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.658997 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(27727ad0183298c46b32a6ac7209cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(27727ad0183298c46b32a6ac7209cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a664d3690caf0e18192076660a3d61ca') in 0.0015087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.355605 seconds.
+  path: Assets/Samples/2D SpriteShape
+  artifactKey: Guid(3239b84aba3091f4b8037820a54ba7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape using Guid(3239b84aba3091f4b8037820a54ba7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9af8a242e605e0f4a1afb21067f00031') in 0.0008732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474870 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0
+  artifactKey: Guid(0fc5d451b2c033e45b92308216024ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0 using Guid(0fc5d451b2c033e45b92308216024ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fe154907c283b8220d413fc2b0ee924') in 0.0010165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.477140 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras
+  artifactKey: Guid(b2007996c1128bf4e914ed00532a8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras using Guid(b2007996c1128bf4e914ed00532a8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29b31182273f694ffa7fa246e1c1c050') in 0.0022196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.498617 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Prefabs
+  artifactKey: Guid(85a9244be03e34a18b87fa6cf18a2cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Prefabs using Guid(85a9244be03e34a18b87fa6cf18a2cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71e79758a3e680ab8894fb2e1e5af554') in 0.0019418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Prefabs/TreeSprite.prefab
+  artifactKey: Guid(91b2663493e1ab642b1b60fc7955f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Prefabs/TreeSprite.prefab using Guid(91b2663493e1ab642b1b60fc7955f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd88265613896c50ce30da377832b1a') in 0.3936695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.889399 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes
+  artifactKey: Guid(482ac420eb7aa3b4186fee474c058820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes using Guid(482ac420eb7aa3b4186fee474c058820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cd6946ba9184270e905f0527eed1fbd') in 0.0006512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942574 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/Colliders.unity
+  artifactKey: Guid(299e0b891b406a8409a068bd55ee5a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/Colliders.unity using Guid(299e0b891b406a8409a068bd55ee5a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ff5b4a7fbba89bed8de3ab80f84fee') in 0.001519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.541495 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene.unity
+  artifactKey: Guid(b8529774cb716f645b682951a7aae689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene.unity using Guid(b8529774cb716f645b682951a7aae689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b85f2e135be01d791056b1175626f1b9') in 0.0012485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.088777 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene.unity
+  artifactKey: Guid(e182160e1c8c64844872387ebf59c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene.unity using Guid(e182160e1c8c64844872387ebf59c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '320d65a24167b768c70368dd423e4134') in 0.0008005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.859278 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimplifiedSpriteShape.unity
+  artifactKey: Guid(254bf62203b7710419a1e6283f7e049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimplifiedSpriteShape.unity using Guid(254bf62203b7710419a1e6283f7e049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84b12dde64ee7e905d75984c67af7f66') in 0.0011555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.635070 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SprinklePrefabs.unity
+  artifactKey: Guid(486575d9cb65b134fad35b06df9ae993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SprinklePrefabs.unity using Guid(486575d9cb65b134fad35b06df9ae993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd40db01a929c2670b1406d97dc6ab9e') in 0.0011807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.666581 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene
+  artifactKey: Guid(94320159057d67645be2b484d3df7f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene using Guid(94320159057d67645be2b484d3df7f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35865fe1624e75cbad1b877b920303e5') in 0.0009381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033603 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene/LightingData.asset
+  artifactKey: Guid(e402b819d8872c84f8543c0e1302b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene/LightingData.asset using Guid(e402b819d8872c84f8543c0e1302b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3984f7d4d7f7a7ccec2806afba168a19') in 0.0035167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.326958 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene/LightingData.asset
+  artifactKey: Guid(d6e7686d8df294d4bbab766d94713dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene/LightingData.asset using Guid(d6e7686d8df294d4bbab766d94713dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89d381fba2ebcc65fe668898725d2902') in 0.0015985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.044944 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts
+  artifactKey: Guid(00426f3467ae2f4449711bbe9a567084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts using Guid(00426f3467ae2f4449711bbe9a567084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bac55a2a6572a22e05738e3743059dfd') in 0.0005981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.274531 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/Clipper.cs
+  artifactKey: Guid(cc4c383146400014d810176d3a637934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/Clipper.cs using Guid(cc4c383146400014d810176d3a637934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87f4027556e9992d9b83dbd6ac638647') in 0.0005738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.832565 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/GeometryCollider.cs
+  artifactKey: Guid(e0ecd6fe4dd55d640bd7ef3235e0e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/GeometryCollider.cs using Guid(e0ecd6fe4dd55d640bd7ef3235e0e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e91a308846acf68f29050138268f28f2') in 0.0006854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.824666 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Textures/CastleWallFill.psd
+  artifactKey: Guid(815f15421880340e1ac8fb4767057d51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Textures/CastleWallFill.psd using Guid(815f15421880340e1ac8fb4767057d51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38e0cfdab6837bdab9dac1f5f90096d5') in 0.8973657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene
+  artifactKey: Guid(dc9eb207cb012e840a8a6531cf526571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene using Guid(dc9eb207cb012e840a8a6531cf526571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44324e0ff6afa8b3cedb16e3bb0724f7') in 0.0322226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/IceSprite.png
+  artifactKey: Guid(e74b518a65bc45f4cace9a2fef6af29d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/IceSprite.png using Guid(e74b518a65bc45f4cace9a2fef6af29d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3d71a84a1ba2023a14b3287063606fe') in 1.1187698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SprinklePrefabs.unity
+  artifactKey: Guid(486575d9cb65b134fad35b06df9ae993) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SprinklePrefabs.unity using Guid(486575d9cb65b134fad35b06df9ae993) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63d1a2e8485e08252c835ba683c3ebc0') in 0.0404614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66c61fea1c3e43fb575e1fb82b8adc0a') in 0.0368016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/TreeSprite.png
+  artifactKey: Guid(029f005d8b06f834fa06df50fc4e7dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprites/TreeSprite.png using Guid(029f005d8b06f834fa06df50fc4e7dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6634b2c284427772ff9b3434d7001da5') in 0.1788153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimplifiedSpriteShapeSettings.lighting
+  artifactKey: Guid(f1be2f508637f3c449b4ce545d1fb9ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimplifiedSpriteShapeSettings.lighting using Guid(f1be2f508637f3c449b4ce545d1fb9ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: '442740b08fae48f6d0608f506a5b8271') in 0.1202128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/2 Corners.unity
+  artifactKey: Guid(7a37ba72831c14c5499ff8be9454c363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/2 Corners.unity using Guid(7a37ba72831c14c5499ff8be9454c363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7bb0baf96a744389f78f7d19d1974a5') in 0.0530295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Strip.png
+  artifactKey: Guid(4f39beab6f36e4012aa0112a3a02828d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprites/Grass Strip.png using Guid(4f39beab6f36e4012aa0112a3a02828d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bdb7200230cca3f5a1b257d07cd31bf') in 0.0692605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Prefabs
+  artifactKey: Guid(85a9244be03e34a18b87fa6cf18a2cd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Prefabs using Guid(85a9244be03e34a18b87fa6cf18a2cd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6813e3564b99c5406b2b591b9330790') in 0.03484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene.unity
+  artifactKey: Guid(b8529774cb716f645b682951a7aae689) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene.unity using Guid(b8529774cb716f645b682951a7aae689) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1edb8281251966b327e1051f4588e8b1') in 0.0392508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles/Simple2.asset
+  artifactKey: Guid(e03579ec9d1b6c54ea364bd8ee0bcfd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles/Simple2.asset using Guid(e03579ec9d1b6c54ea364bd8ee0bcfd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7de1684af2912cc8d2d0ac5e459fd16a') in 0.1519189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes
+  artifactKey: Guid(482ac420eb7aa3b4186fee474c058820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes using Guid(482ac420eb7aa3b4186fee474c058820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7203bed0e38dadbad7358f874eca1e3') in 0.0292826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles
+  artifactKey: Guid(aa08311cde7ea4c6183e9807841a6484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles using Guid(aa08311cde7ea4c6183e9807841a6484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be303d666bc11619e845ac66ed8b75b7') in 0.0358122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Textures
+  artifactKey: Guid(0a333212fd4f241e08d2d1e7cb7966cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Textures using Guid(0a333212fd4f241e08d2d1e7cb7966cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '508985b59609089e42215900acab9d63') in 0.0370454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene/LightingData.asset
+  artifactKey: Guid(d6e7686d8df294d4bbab766d94713dc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/ConformingSplineScene/LightingData.asset using Guid(d6e7686d8df294d4bbab766d94713dc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33879ff4bac8c4acff52d20ce63980b7') in 0.0451247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/Sprinkler.cs
+  artifactKey: Guid(1c3eb1d33a6f9114bb5b51099948d2ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/Sprinkler.cs using Guid(1c3eb1d33a6f9114bb5b51099948d2ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '609f28ee72f46683c16434be02af37dc') in 0.036002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/Clipper.cs
+  artifactKey: Guid(cc4c383146400014d810176d3a637934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/Clipper.cs using Guid(cc4c383146400014d810176d3a637934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf6fe4e220f9175071fdf8cb32247467') in 0.0305074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimplifiedSpriteShape
+  artifactKey: Guid(a6cda824eb9d3a444b456ee47a69acad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimplifiedSpriteShape using Guid(a6cda824eb9d3a444b456ee47a69acad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00f68f2c069201ea0f182258640271a6') in 0.0381519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles/Castle Wall.asset
+  artifactKey: Guid(a710fe91ca336478e999261a86254e9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles/Castle Wall.asset using Guid(a710fe91ca336478e999261a86254e9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b07a5eaa9aa508ba7eb10214bfa9c3b') in 0.0552977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Textures/CastleWallFill.psd
+  artifactKey: Guid(7d8cda48c729c46329cd9d3c69a3a4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Textures/CastleWallFill.psd using Guid(7d8cda48c729c46329cd9d3c69a3a4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f9a576b8089d2382d91735e27631402') in 0.0792804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles/Tree A.asset
+  artifactKey: Guid(8e3fa9c7ff3ad4112a30689e933384ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Sprite Shape Profiles/Tree A.asset using Guid(8e3fa9c7ff3ad4112a30689e933384ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '036dce4a2df99dd316cd8da46b013be9') in 0.0483473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Tree B.asset
+  artifactKey: Guid(e7f74cbc8d9e64d30a689bae88315b93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Samples/Sprite Shape Profiles/Tree B.asset using Guid(e7f74cbc8d9e64d30a689bae88315b93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4240f4eeb0efc9861e95ba9bc6dc22d6') in 0.0549091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/GenerateSpriteShapes.cs
+  artifactKey: Guid(fccb8cf469e193a4ea6c24362f061c12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scripts/GenerateSpriteShapes.cs using Guid(fccb8cf469e193a4ea6c24362f061c12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfcca83226fc99f8938427ea21df9227') in 0.0349658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene
+  artifactKey: Guid(94320159057d67645be2b484d3df7f48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/2D SpriteShape/13.0.0/Sprite Shape Extras/Scenes/SimpleDrawScene using Guid(94320159057d67645be2b484d3df7f48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6236eb621251c3eed951b287fc29a7d') in 0.0291867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6909 unused Assets / (4.1 MB). Loaded Objects now: 7869.
+Memory consumption went from 158.7 MB to 154.6 MB.
+Total: 11.045600 ms (FindLiveObjects: 0.613400 ms CreateObjectMapping: 0.655100 ms MarkObjects: 7.866000 ms  DeleteObjects: 1.909400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1508ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (177ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (3.9 MB). Loaded Objects now: 7799.
+Memory consumption went from 157.8 MB to 153.9 MB.
+Total: 8.641100 ms (FindLiveObjects: 0.631000 ms CreateObjectMapping: 0.556400 ms MarkObjects: 5.747500 ms  DeleteObjects: 1.704500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1445ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (4.2 MB). Loaded Objects now: 7802.
+Memory consumption went from 157.8 MB to 153.6 MB.
+Total: 7.693600 ms (FindLiveObjects: 0.984900 ms CreateObjectMapping: 0.616800 ms MarkObjects: 4.500800 ms  DeleteObjects: 1.589300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
